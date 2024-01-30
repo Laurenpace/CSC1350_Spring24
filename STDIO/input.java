@@ -7,5 +7,10 @@ public class input {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a line of text: ");
         System.out.println(in.nextLine());
+        
+
+        String text = in.nextLine();
+        System.out.println(text);
+
     }
 }
