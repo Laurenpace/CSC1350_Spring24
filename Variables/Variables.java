@@ -3,17 +3,6 @@ package CSC1350_Spring24.Variables;
 public class Variables {
     public static void main(String[] args) {
 
-
-
-
-
-
-
-
-
-
-
-
         int maxInt = Integer.MAX_VALUE;
         double numDouble = 5.0;
         double maxDouble = Double.MAX_VALUE;
