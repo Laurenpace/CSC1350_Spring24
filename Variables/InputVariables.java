@@ -7,6 +7,7 @@ public class InputVariables {
         Scanner in = new Scanner(System.in);
         System.out.print("Enter a line of text: " );
         String str = in.nextLine();
+        System.out.println("You entered " + str);
 
         System.out.print("Give me a double number: ");
         double num = in.nextDouble();
