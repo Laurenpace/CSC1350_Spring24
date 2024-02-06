@@ -7,7 +7,8 @@ public class LengthExample {
         Scanner in = new Scanner(System.in);
 
         String str = "some text";
-//        System.out.println(str.length()); //error
+//        System.out.println(str.charAt(str.length())); //error
+        System.out.println(str.length());
         System.out.println(str.charAt(str.length()-1));
         String myString = "A sentence maybe.";
         System.out.println(myString.length());
