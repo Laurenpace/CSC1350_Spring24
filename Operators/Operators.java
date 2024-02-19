@@ -11,7 +11,7 @@ public class Operators {
         System.out.println("4 <= 4 is " + (4 <= 4));
         System.out.println("4 <= 5 is " + (4 <= 5));
         System.out.println("4 > 4 is " + (4 > 4));
-        System.out.println("4 > 5 is " + (4 > 5));
+        System.out.println("7 > 5 is " + (7 > 5));
         System.out.println("4 > 5 is " + (4 > 5));
         int num1 = 10;
         int num2 = 5;
@@ -80,9 +80,9 @@ public class Operators {
         System.out.println("num assigned to 0++: " + num);
         System.out.println("result of 0++: " + count);
 
-        count++;
-        count = count + 1;
-        count += 1;
+//        count++;
+//        count = count + 1;
+//        count += 1;
         count = 0;
         num = 0;
         num = ++count; //value of count incremented then returned (assigned)
