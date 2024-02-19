@@ -6,7 +6,6 @@ public class CompileErrors {
     public static void main(String[] args) {
         //A compile error is anything that causes the program to not compile
         Scanner in = new Scanner(System.in);
-        in.nextLine();
 //        misnaming/case errors are examples of compile errors
 //        inp.nextLine(); //if this was in.nextInt(); it would compile
 //        System.out.println("missing semicolons can cause a compile error")
