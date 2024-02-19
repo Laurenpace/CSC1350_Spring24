@@ -17,6 +17,10 @@ public class printfExample {
         System.out.println(num);
         System.out.printf("%.2f", num);
 
+        System.out.println();
+        double var2 = 4.85579;
+        System.out.printf("%.2f\n", 4.85579);
+
 
 
 
