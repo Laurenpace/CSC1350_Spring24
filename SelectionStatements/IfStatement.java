@@ -9,11 +9,15 @@ public class IfStatement {
         int num = in.nextInt();
         if (num > 10){
             System.out.println("You entered a number greater than 10.");
+            num++;
         }
-        else if (num < 10)
-            System.out.println("You entered a number less than 10 or 10.");
+        else if (num < 10){
+            System.out.println("You entered a number less than 10.");
+        }
+        else {
+            System.out.println("You entered 10");
+        }
 
-        else System.out.println("You entered 10");
 
 //
 //        ///////////
@@ -23,12 +27,12 @@ public class IfStatement {
         else System.out.println("Try again");
 //
 //
-//        /////
-        System.out.print("Enter a word that starts with 'he': ");
-        String myString = in.next();
-        if (myString.substring(0, 2).equals("he")){
-            System.out.println("Correct!");
+        int var1 = 1, var2 =2;
+        if(var1*var2 !=  10){
+            //woo math
         }
-        else System.out.println("Incorrect...");
+//        /////
+
+
     }
 }
