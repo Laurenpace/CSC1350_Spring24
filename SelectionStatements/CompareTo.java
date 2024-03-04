@@ -12,9 +12,9 @@ public class CompareTo {
         String str1 = in.next();
         String str2 = in.next();
         if(str1.compareTo(str2) < 0){
-            System.out.printf("%s alphabetically comes before %s\n", str1, str2);
+            System.out.printf("%s lexicographically comes before %s\n", str1, str2);
         }
-        else System.out.printf("%s alphabetically comes before %s\n", str2, str1);
+        else System.out.printf("%s lexicographically comes before %s\n", str2, str1);
 
         //non case-sensitive option with `compareToIgnoreCase`
         if(str1.compareToIgnoreCase(str2) < 0){
