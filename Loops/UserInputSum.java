@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class UserInputSum {
     public static void main(String[] args) {
-        Double number, sum = 0.0;
+        double number, sum = 0.0;
         Scanner input = new Scanner(System.in);
         while (true) {
             System.out.print("Enter a number (enter a negative number to exit): ");
